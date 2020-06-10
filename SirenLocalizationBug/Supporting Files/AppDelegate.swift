@@ -6,7 +6,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   var window: UIWindow?
   
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-    let loginStoryboard = UIStoryboard(name: "TOS", bundle: nil)
+    let loginStoryboard = UIStoryboard(name: "Main", bundle: nil)
     window?.rootViewController = loginStoryboard.instantiateInitialViewController()
     window?.makeKeyAndVisible()
 
